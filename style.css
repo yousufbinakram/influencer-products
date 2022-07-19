@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF ;
+   
+
+}
+.container{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.link-button{
+text-decoration: none;
+background-color:
+#E02C6D ;
+padding: 10px 24px;
+border-radius: 20px;
+}
+/* .button-arrow{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+
+
+}  */
+
+.fa-arrow-right{
+    height: 24px;
+    width: 24px;
+}
+.camera{
+    width: 440px;
+    height: 414px;
+}
+.flexible{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.half-width img{
+    width: 100%;
+}
+.half-width{
+    margin:60px;
+}
+.logos{
+    border: 1px solid lightcyan;
+    padding: 10px;
+    text-align: center;
+ 
+
+}
+.logos a{
+    margin-left: 20px;
+}
+.section-title{
+    text-align: center;
+}
+.collection-banner{
+    width: 300px;
+    height: 256px;
+}
+.collection-banner img{
+    width: 100%;
+}
+.fa-star.filled{
+    color: #FB8200;
+} 
+.fa-star-half-stroke{
+    color: #FB8200; 
+}
+.collection{
+    padding: 20px;
+    border: 2px solid lightgray;
+    box-shadow: 2px 1px 5px lightgray;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-row-gap: 20px;
+}
+footer{
+    text-align: center;
+  color: #FFFFFF;
+    background-color:  #0A0826;
+    padding: 40px;
+}
+  
+footer i{
+    padding: 5px;
+}
+@media only screen and (max-width:688px){
+
+    .flexible{
+        
+        flex-direction: column;
+    }
+    .collections{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .collection{
+        padding: 5px;
+    }
+    
+
+}
+@media only screen and (min-width:688px ) and (max-width:992px){
+    .flexible{
+        
+        flex-direction: column;
+    }
+    .collections{
+        grid-template-columns: repeat(2,1fr);
+}
